@@ -3,6 +3,7 @@ import HeroFrame from "../assets/HeroFrame.png";
 import { motion } from "framer-motion";
 import Projects from "./Projects";
 import Tf1 from "../assets/Tf1.png";
+import Dionysus from "../assets/Dionysus.png";
 import Footer from "./Footer";
 import Loading from "./Loading";
 import { useEffect, useState } from "react";
@@ -88,11 +89,11 @@ const Work = () => {
               </div>
             </motion.section>
             <Projects
-              title="Stadia Bluetooth"
+              title="Dionysus"
               subtitle="Google, '23 —"
               description="Giving a second life to over a million controllers."
-              image={Tf1}
-              link=""
+              image={Dionysus}
+              link="https://dionysus-fawn.vercel.app/"
               topGradiant="from-[#4E9DE6]"
               bottomGradiant="to-[#417EB2]"
             />
